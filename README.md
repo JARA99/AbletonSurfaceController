@@ -4,5 +4,5 @@ The idea behind this project is to create a DIY fully Open Source version of the
 
 ##  To do:
 
--[ x ] Search for documentation.
--[  ] Everything else xD.
+- [x] Search for documentation.
+- [] Everything else xD.
