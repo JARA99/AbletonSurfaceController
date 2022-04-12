@@ -1,0 +1,3 @@
+[submodule "tests/Comunication/pico-example-midi"]
+	path = tests/Comunication/pico-example-midi
+	url = git@github.com:infovore/pico-example-midi.git
