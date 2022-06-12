@@ -21,10 +21,14 @@
 uint8_t const cable_num = 0; // MIDI jack associated with USB endpoint
 uint8_t const channel   = 0; // 0 for channel 1
 
+uint8_t clock = 0;
+
+
 void midi_task(void);
 void simple_send(const uint8_t packet[],const uint32_t len);
 void send_w_recive(const uint8_t packet[],const uint32_t len);
 void send_w_recive_sysex(const uint8_t packet[],const uint32_t orlen);
+void send_w_recive_notes(const uint8_t packet[],const uint32_t len);
 
 int main() {
     // stdio_init_all();
@@ -33,18 +37,31 @@ int main() {
     // #ifndef PICO_DEFAULT_LED_PIN
     // #warning blink example requires a board with a regular LED
     // #else
-    const uint LED_PIN = PICO_DEFAULT_LED_PIN;
+    const uint LED_PIN = 9;
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
+    const uint clock_led = PICO_DEFAULT_LED_PIN;
+    gpio_init(clock_led);
+    gpio_set_dir(clock_led, GPIO_OUT);
     while (1)
     {
       tud_task(); // tinyusb device task
       midi_task();
+      if (clock == 0)
+      {
+        gpio_put(clock_led,1);
+      }
+      else if (clock == 1)
+      {
+        gpio_put(clock_led,0);
+      }
+      
+      
       // busy_wait_us_32(250);
       gpio_put(LED_PIN, 1);
-      busy_wait_us_32(250);
+      busy_wait_us_32(5);
       gpio_put(LED_PIN, 0);
-      busy_wait_us_32(250);
+      // busy_wait_us_32(800);
       // printf("Cicle completed");
     }
 }
@@ -68,8 +85,12 @@ void midi_task(void){
     send_w_recive_sysex(packet,len);
     // simple_send(packet,len);
   }
+  else if (packet[0] == 0xF8)
+  {
+    clock = (clock+1)%24;
+  }
   else {
-    send_w_recive(packet,len);
+    send_w_recive_notes(packet,len);
   }
 
 }
@@ -117,6 +138,10 @@ void send_w_recive_sysex(const uint8_t packet[],const uint32_t orlen){
   uint32_t len = orlen;
   uint8_t sysex_len = orlen%0x80;
   bool mssg_end = 0;
+  
+  uint8_t simp[len+4];
+  simp[0] = 0xF0;
+  simp[1] = 0x7D;
 
   for (int i = 0; i < orlen; i++)
   {
@@ -125,21 +150,30 @@ void send_w_recive_sysex(const uint8_t packet[],const uint32_t orlen){
       len = i+1;
       sysex_len = (i+1)%0x80;
       mssg_end = 1;
+      simp[i+2] = packet[i]%0x80;
+      simp[i+3] = sysex_len;
+      simp[i+4] = 0xF7;
     }
-    
+    if (mssg_end == 0){
+      simp[i+2] = packet[i]%0x80;
+    }
   }
   
   
-  uint8_t simp[9];
 
-  simp[0] = 0xF0;
-  simp[1] = 0x7D;
-  simp[2] = packet[0]%0x80;
-  simp[3] = packet[1]%0x80;
-  simp[4] = packet[2]%0x80;
-  simp[5] = packet[len-2]%0x80;
-  simp[6] = packet[len-1]%0x80;
-  simp[7] = sysex_len;
-  simp[8] = 0xF7;
-  tud_midi_stream_write(cable_num,simp,9);
+  // simp[0] = 0xF0;
+  // simp[1] = 0x7D;
+  // simp[2] = packet[0]%0x80;
+  // simp[3] = packet[1]%0x80;
+  // simp[4] = packet[2]%0x80;
+  // simp[5] = packet[len-2]%0x80;
+  // simp[6] = packet[len-1]%0x80;
+  // simp[7] = sysex_len;
+  // simp[8] = 0xF7;
+  tud_midi_stream_write(cable_num,simp,len+4);
+}
+
+void send_w_recive_notes(const uint8_t packet[],const uint32_t len){
+
+  tud_midi_stream_write(cable_num,packet,3);
 }
