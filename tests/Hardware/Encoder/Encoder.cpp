@@ -7,7 +7,7 @@
 #include "pico/stdlib.h"
 #include <stdio.h>
 // #include <string.h>
-#include "EncoderClass.cpp"
+// #include "EncoderClass.cpp"
 
 int main() {
     stdio_init_all();
@@ -46,43 +46,63 @@ int main() {
     gpio_set_dir(8,GPIO_OUT);
     gpio_set_dir(7,GPIO_OUT);
     
-    gpio_pull_down(13);
-    gpio_pull_down(14);
+    gpio_pull_up(13);
+    gpio_pull_up(14);
+
+    gpio_put(15,1);
+    gpio_put(12,1);
 
     int count = 0;
-    bool A_last = 1;
+    bool A_last = 0;
+    bool B_last = 0;
 
-    Encoder a(13,14,15,'a');
-    Encoder b(14,13,12,'b');
+    bool change;
+    bool dir;
 
     while (1)
     {
-        a.read();
-        b.read();
-    }
+        gpio_put(15,0);
+        change = gpio_get(13);
+        dir = gpio_get(14);
 
-
-    // while (1)
-    // {
-    //     bool change = gpio_get(13);
-    //     bool dir = gpio_get(14);
-
-    //     if (A_last != change)
-    //     {
-    //         A_last = change;
-    //         if (dir != change)
-    //         {
-    //             count += 1;
-    //             printf("<---\n");
-    //         }
-    //         else
-    //         {
-    //             count -= 1;
-    //             printf("--->\n");
-    //         }
+        if (A_last != change)
+        {
+            A_last = change;
+            if (dir != change)
+            {
+                count += 1;
+                printf("<---\n");
+            }
+            else
+            {
+                count -= 1;
+                printf("--->\n");
+            }
             
-    //     }    
-    //     // sleep_ms(10);
-    // }
+        }    
+        gpio_put(15,1);
+
+
+        gpio_put(12,0);
+        change = gpio_get(14);
+        dir = gpio_get(13);
+        if (A_last != change)
+        {
+            A_last = change;
+            if (dir != change)
+            {
+                count += 1;
+                printf("<---\n");
+            }
+            else
+            {
+                count -= 1;
+                printf("--->\n");
+            }
+            
+        }  
+        gpio_put(12,1);
+        // sleep_ms(10);
+    }
     
 }
