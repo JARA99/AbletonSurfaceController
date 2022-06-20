@@ -14,7 +14,7 @@ pico_sdk_init()
 
 add_executable(${PROJECT_NAME}
         Encoder.cpp
-        # EncoderClass.cpp
+        EncoderClass.cpp
         )
 
 # pull in common dependencies

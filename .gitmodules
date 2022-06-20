@@ -1,3 +1,6 @@
 [submodule "tests/Comunication/pico-example-midi"]
 	path = tests/Comunication/pico-example-midi
 	url = git@github.com:infovore/pico-example-midi.git
+[submodule "tests/Hardware/Display/pico-displayDrivs"]
+	path = tests/Hardware/Display/pico-displayDrivs
+	url = git@github.com:tvlad1234/pico-displayDrivs.git
