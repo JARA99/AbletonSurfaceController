@@ -46,7 +46,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build
+CMAKE_BINARY_DIR = /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build
 
 # Utility rule file for ELF2UF2Build.
 
@@ -64,52 +64,52 @@ CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-pa
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
 CMakeFiles/ELF2UF2Build-complete: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
-	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles/ELF2UF2Build-complete
-	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'ELF2UF2Build'"
+	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles/ELF2UF2Build-complete
+	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-done
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'ELF2UF2Build'"
-	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2 && /usr/bin/cmake -E echo_append
-	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2 && /usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'ELF2UF2Build'"
+	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2 && /usr/bin/cmake -E echo_append
+	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2 && /usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-install
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'ELF2UF2Build'"
 	/usr/bin/cmake -E make_directory /home/jorgealejandro/.pico/pico-sdk/tools/elf2uf2
-	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2
-	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2
-	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/tmp
-	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src/ELF2UF2Build-stamp
-	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src
-	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src/ELF2UF2Build-stamp
-	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
+	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2
+	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2
+	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/tmp
+	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src/ELF2UF2Build-stamp
+	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src
+	/usr/bin/cmake -E make_directory /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src/ELF2UF2Build-stamp
+	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "No download step for 'ELF2UF2Build'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
+	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'ELF2UF2Build'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
+	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'ELF2UF2Build'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'ELF2UF2Build'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
+	/usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/tmp/ELF2UF2Build-cfgcmd.txt
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-update
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'ELF2UF2Build'"
-	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /home/jorgealejandro/.pico/pico-sdk/tools/elf2uf2
-	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2 && /usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Performing configure step for 'ELF2UF2Build'"
+	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2 && /usr/bin/cmake "-GUnix Makefiles" /home/jorgealejandro/.pico/pico-sdk/tools/elf2uf2
+	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2 && /usr/bin/cmake -E touch /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
 
 elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-build: elf2uf2/src/ELF2UF2Build-stamp/ELF2UF2Build-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'ELF2UF2Build'"
-	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/elf2uf2 && $(MAKE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Performing build step for 'ELF2UF2Build'"
+	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/elf2uf2 && $(MAKE)
 
 ELF2UF2Build: CMakeFiles/ELF2UF2Build
 ELF2UF2Build: CMakeFiles/ELF2UF2Build-complete
@@ -134,6 +134,6 @@ CMakeFiles/ELF2UF2Build.dir/clean:
 .PHONY : CMakeFiles/ELF2UF2Build.dir/clean
 
 CMakeFiles/ELF2UF2Build.dir/depend:
-	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles/ELF2UF2Build.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ELF2UF2Build.dir/depend
 

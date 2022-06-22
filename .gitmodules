@@ -4,3 +4,9 @@
 [submodule "tests/Hardware/Display/pico-displayDrivs"]
 	path = tests/Hardware/Display/pico-displayDrivs
 	url = git@github.com:tvlad1234/pico-displayDrivs.git
+[submodule "tests/Hardware/pico-displayExamples"]
+	path = tests/Hardware/pico-displayExamples
+	url = git@github.com:tvlad1234/pico-displayExamples.git
+[submodule "tests/Hardware/Display/Adafruit-GFX-Library"]
+	path = tests/Hardware/Display/Adafruit-GFX-Library
+	url = git@github.com:adafruit/Adafruit-GFX-Library.git

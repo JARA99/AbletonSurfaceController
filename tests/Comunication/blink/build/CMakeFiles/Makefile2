@@ -47,7 +47,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build
+CMAKE_BINARY_DIR = /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -1529,14 +1529,14 @@ pico-sdk/tools/clean:
 CMakeFiles/ELF2UF2Build.dir/all:
 	$(MAKE) -f CMakeFiles/ELF2UF2Build.dir/build.make CMakeFiles/ELF2UF2Build.dir/depend
 	$(MAKE) -f CMakeFiles/ELF2UF2Build.dir/build.make CMakeFiles/ELF2UF2Build.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target ELF2UF2Build"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8 "Built target ELF2UF2Build"
 .PHONY : CMakeFiles/ELF2UF2Build.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/ELF2UF2Build.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 8
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 8
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/ELF2UF2Build.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 0
 .PHONY : CMakeFiles/ELF2UF2Build.dir/rule
 
 # Convenience name for target.
@@ -1557,14 +1557,14 @@ CMakeFiles/MoodBlink.dir/all: CMakeFiles/ELF2UF2Build.dir/all
 CMakeFiles/MoodBlink.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 	$(MAKE) -f CMakeFiles/MoodBlink.dir/build.make CMakeFiles/MoodBlink.dir/depend
 	$(MAKE) -f CMakeFiles/MoodBlink.dir/build.make CMakeFiles/MoodBlink.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target MoodBlink"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65,66,67,68,69,70,71,72,73,74,75,76,77,78 "Built target MoodBlink"
 .PHONY : CMakeFiles/MoodBlink.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/MoodBlink.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 82
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 82
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/MoodBlink.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 0
 .PHONY : CMakeFiles/MoodBlink.dir/rule
 
 # Convenience name for target.
@@ -1584,14 +1584,14 @@ CMakeFiles/MoodBlink.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=82,83 "Built target bs2_default_padded_checksummed_asm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=82,83 "Built target bs2_default_padded_checksummed_asm"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 4
 	$(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/rule
 
 # Convenience name for target.
@@ -1611,14 +1611,14 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/depend
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=81 "Built target bs2_default_bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=81 "Built target bs2_default_bin"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/rule
 
 # Convenience name for target.
@@ -1638,14 +1638,14 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_bin.dir/clean:
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all:
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/depend
 	$(MAKE) -f pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build.make pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles --progress-num=79,80 "Built target bs2_default"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles --progress-num=79,80 "Built target bs2_default"
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
 
 # Build rule for subdir invocation for target.
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles 0
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default.dir/rule
 
 # Convenience name for target.

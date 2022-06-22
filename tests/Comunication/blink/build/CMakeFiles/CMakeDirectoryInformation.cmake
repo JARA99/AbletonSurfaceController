@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/tests/Comunication/blink/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)

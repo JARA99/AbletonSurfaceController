@@ -10,7 +10,9 @@ set(CMAKE_CXX_STANDARD 17)
 
 pico_sdk_init()
 # add_subdirectory(/home/jorgealejandro/.pico/pico-sdk/src/)
-# add_subdirectory(./examples)
+# add_subdirectory(Classes)
+
+# add_subdirectory(pico-displayDrivs)
 
 add_executable(${PROJECT_NAME}
         Encoder.cpp
