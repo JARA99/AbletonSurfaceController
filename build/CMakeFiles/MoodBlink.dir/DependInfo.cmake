@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_ASM
   "/home/jorgealejandro/.pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S" "/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles/MoodBlink.dir/home/jorgealejandro/.pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
   "/home/jorgealejandro/.pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S" "/home/jorgealejandro/Documents/Proyectos/AbletonSurfaceController/build/CMakeFiles/MoodBlink.dir/home/jorgealejandro/.pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
   )
+set(CMAKE_ASM_COMPILER_ID "GNU")
 
 # Preprocessor definitions for this target.
 set(CMAKE_TARGET_DEFINITIONS_ASM
