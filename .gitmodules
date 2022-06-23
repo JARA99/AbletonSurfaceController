@@ -10,3 +10,6 @@
 [submodule "tests/Hardware/Display/Adafruit-GFX-Library"]
 	path = tests/Hardware/Display/Adafruit-GFX-Library
 	url = git@github.com:adafruit/Adafruit-GFX-Library.git
+[submodule "AbletonSurfaceController/libs/pico-displayDrivs"]
+	path = AbletonSurfaceController/libs/pico-displayDrivs
+	url = git@github.com:tvlad1234/pico-displayDrivs.git
